@@ -13,7 +13,7 @@ using Open CV.
 [//]: # (Image References)
 
 [input_image]: ./test_images/solidYellowCurve2.jpg "Input Image"
-[output_image]: ./test_images_ouput/solidYellowCurve2.jpg "Output Image"
+[output_image]: ./test_images_output/solidYellowCurve2.jpg "Output Image"
 
 ---
 
