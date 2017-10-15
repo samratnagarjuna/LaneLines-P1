@@ -27,7 +27,7 @@ The pipeline consisted of 6 number of steps as listed below.
 * Apply Gaussian blur (`kernal_size=9`)
 * Apply Canny edge detection (`low_threshold=50, high_threshold=150`)
 * Apply Mask to focus only in region of interest
-* Apply Hough Transform to find lines from edges (`rho=1, theta=\pi/180, threshold=20, min_line_len=1, max_line_gap=120`)
+* Apply Hough Transform to find lines from edges (`rho=1, theta=pi/180, threshold=20, min_line_len=1, max_line_gap=120`)
 * Interpolate/extrapolate/average lines form Hough Transform and draw only two lines representing the left and right lanes on the road.
 
 #### Modifying `draw_lines` funciton
@@ -52,10 +52,10 @@ to two lines, one for the left and one for the right lane.
 
 ![alt text][output_image]
 
-### 2. Potential shortcomings with current pipeline
+### Potential shortcomings with current pipeline
 
 * I realize that using Canny edge detection on a gray scale image has side effects when there is no good lighting in the scene.
 
-### 3. Suggest possible improvements to your pipeline
+### Suggest possible improvements to your pipeline
 
 * Use a different color space rather then gray scale might be helpful to detect edges in any kind of lighting. Potentially using HSV color space is a good place to start.
