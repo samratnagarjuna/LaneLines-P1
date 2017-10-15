@@ -52,6 +52,10 @@ to two lines, one for the left and one for the right lane.
 
 ![alt text][output_image]
 
+*Video output*
+
+The results of the video can be found in the `./test_videos_output/` folder.
+
 ### Potential shortcomings with current pipeline
 
 * I realize that using Canny edge detection on a gray scale image has side effects when there is no good lighting in the scene.
